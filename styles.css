@@ -1,0 +1,36 @@
+#logo{
+  font-size: 50px;
+  font-family: 'Cuprum', sans-serif;
+  text-align: center;
+  color: #0b59e0;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #ffffff;
+}
+
+.picture{
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 55%;
+  border: 3px;
+  padding: 10px;
+}
+
+.button{
+border: solid #000000;
+background-color: #0b59e0;
+border-radius: 1000px;
+padding: 10px 21px;
+height: 25px;
+width: 100px;
+margin: auto;
+text-align: center;
+color: #ffffff;
+font: normal 700 24px/1 'Cuprum', sans-serif;
+}
+
+/* make button hover green? */
