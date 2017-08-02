@@ -1,3 +1,7 @@
+html{
+  background-color: black;
+  color: white;
+}
 #logo{
   font-size: 50px;
   font-family: 'Cuprum', sans-serif;
@@ -32,5 +36,6 @@ text-align: center;
 color: #ffffff;
 font: normal 700 24px/1 'Cuprum', sans-serif;
 }
-
-/* make button hover green? */
+.button:hover{
+  background-color: #0cd63f;
+}
