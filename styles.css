@@ -8,21 +8,25 @@ html{
   text-align: center;
   color: #0b59e0;
 }
-
+img{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
 h1{
   font-family: 'Indie Flower', cursive;
   text-align: center;
   color: #ffffff;
 }
 
-.picture{
+/*.picture{
   margin-left: auto;
   margin-right: auto;
   height: auto;
   width: 55%;
   border: 3px;
   padding: 10px;
-}
+} */
 
 .button{
 border: solid #000000;

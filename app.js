@@ -15,21 +15,27 @@ $('document').ready(function(){
         }
 
         for(country in flightCountByCountry){
-          output += "<li>" + flightCountByCountry[country] + " coming from " + country + "</li>";
+          output += "<li>" + country + " " + ":" + " " +  flightCountByCountry[country] + "</li>";
         }
+      $("#results").append("There are currently " + totalNumFlights + " planes flying into the U.S. at the moment.");
+
         output += "</ul>"
         console.log(results);
         console.log("totalNumFlights: ", totalNumFlights);
         console.log(flightCountByCountry);
         console.log(output);
         $("#results").append(output)
+
       })
-    $(".button").append("at the moment there are" )
+    })
+    $("li").click(function() {
+
+    })
   })
 
 
 
-})
+
 
 
 // insert vvvv
