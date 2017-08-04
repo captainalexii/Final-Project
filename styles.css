@@ -17,16 +17,9 @@ h1{
   font-family: 'Indie Flower', cursive;
   text-align: center;
   color: #ffffff;
+  font-size: 30px;
 }
 
-/*.picture{
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  width: 55%;
-  border: 3px;
-  padding: 10px;
-} */
 
 .button{
 border: solid #000000;
@@ -42,4 +35,12 @@ font: normal 700 24px/1 'Cuprum', sans-serif;
 }
 .button:hover{
   background-color: #0cd63f;
+}
+
+#total{
+  text-align: center;
+  font-size: 25px;
+}
+#results{
+  font-family: 'Cuprum', sans-serif;
 }
